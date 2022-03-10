@@ -8,18 +8,6 @@ const assertEqual = function (actual, expected) {
 
 // Goal: A function that takes in two objects and returns true / false depending upon match.
 
-
-
-
-
-
-
-
-
-
-
-
-
 const eqObjects = function (obj1, obj2) {
   // compare lengths of object keys
   const keysArray1 = Object.keys(obj1)
