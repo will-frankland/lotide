@@ -32,3 +32,20 @@ function eqArrays(arr1, arr2) {
   }
   return true
 };
+
+// Testing
+// let result1 = map(words, function(item) {
+//   return item + "Hello";
+// }) 
+
+// console.log(result1)
+// assertArraysEqual(result1, ["justHello", "wannaHello", "playHello", "itHello", "rightHello"])
+
+let result1 = map(words, function(item) {
+return item + item
+}) 
+
+console.log(result1)
+assertArraysEqual(result1, ["justjust", "wannawanna", "playplay", "itit", "rightright"])
+
+
