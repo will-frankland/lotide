@@ -6,7 +6,7 @@ function middle(arr1) {
   if (arr1.length <= 2) {
     return [];
   }
-  // determine if the array is odd, remainder of 1 will idicate so.
+  // determine if the array is odd, remainder of 1 will indicate so.
   if (arr1.length % 2 === 1) {
     // return mid value of array and floor it to remove decimal, cannot have .5 of elem
     return [arr1[Math.floor(arr1.length / 2 )]];
